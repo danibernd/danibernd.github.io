@@ -1,4 +1,4 @@
 # danibernd.github.io
 
 Github Pages for my graphic design portfolio
-[danibernd.design](danibernd.github.io)
+[danibernd.design](https://danibernd.github.io/)
