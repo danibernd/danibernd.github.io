@@ -1,7 +1,32 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900,100,200);
 
+@font-face {
+    font-family: 'renner_blackblack';
+    src: url('fonts/renner-black-webfont.eot');
+    src: url('fonts/renner-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/renner-black-webfont.woff2') format('woff2'),
+         url('fonts/renner-black-webfont.woff') format('woff'),
+         url('fonts/renner-black-webfont.ttf') format('truetype'),
+         url('fonts/renner-black-webfont.svg#renner_blackblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rennerbold';
+    src: url('fonts/renner-bold-webfont.eot');
+    src: url('fonts/renner-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/renner-bold-webfont.woff2') format('woff2'),
+         url('fonts/renner-bold-webfont.woff') format('woff'),
+         url('fonts/renner-bold-webfont.ttf') format('truetype'),
+         url('fonts/renner-bold-webfont.svg#rennerbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'renner_blackblack', sans-serif;
   font-size:14px;
   font-weight: 400;
   overflow-y:scroll;
@@ -9,13 +34,13 @@ body{
 }
 
 ::selection {
-		background: #000;
+		background: #1C1B20;
 		color: #fff;
 		text-shadow: none;
 	}
 	
 	::-moz-selection {
-		background: #000;
+		background: #1C1B20;
 		color: #fff;
 		text-shadow: none;
 	}
@@ -258,7 +283,7 @@ ul.menu-icon a:hover{
 }
 
 header a{
-  color:#000000;
+  color:#1C1B20;
 }
 
 ul.header-nav{
@@ -267,6 +292,7 @@ ul.header-nav{
 }
 
 header .logo > a{
+  font-family: 'rennerbold';
   font-size:23px;
   font-weight:800;
   float:left;
@@ -296,11 +322,11 @@ header li > a{
 }
 
 header li > a:hover{
-  color:#000000;
+  color:#1C1B20;
 }
 
 header li > a #active{
-  color:#000000;
+  color:#1C1B20;
 }
 
 header li ul{
@@ -376,12 +402,13 @@ CONTENT
 }
 
 .content .text-intro h1{
-  font-size:43px;
+  font-size:46px;
   width:40%;
-  text-transform:uppercase;
-  color:#000000;
+/*  text-transform:uppercase;*/
+  color:#1C1B20;
   font-weight:900;
   line-height:70px;
+  letter-spacing:0.5px;
 }
 
 .content .text-intro p{
@@ -389,7 +416,7 @@ CONTENT
   color:#8d8d8d;
   margin-top:30px;
   font-weight:400;
-  line-height:22px;
+  line-height:24px;
   letter-spacing:1px;
   width:40%;
 }
@@ -531,7 +558,7 @@ li.grid-item{
 }
 
 .grid-hover:hover{
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
 .grid-hover h1{
@@ -539,9 +566,9 @@ li.grid-item{
   bottom:80px;
   left:40px;
   position:absolute;
-  text-transform:uppercase;
-  color:#000000;
-  letter-spacing:1px;
+/*  text-transform:uppercase;*/
+  color:#1C1B20;
+/*  letter-spacing:1px;*/
   font-weight:900;
   line-height:50px;
 }
@@ -588,6 +615,7 @@ footer{
 #footer-left{text-align:left;}
 
 .footer-margin .copyright{
+  font-family: 'rennerbook', sans-serif;
   color: #686868;
   letter-spacing: 1px;
   font-size: 12px;
@@ -645,7 +673,7 @@ input{
   height:40px;
   background:#f8f7f7;
   border:0;
-  color:#000000;
+  color:#1C1B20;
   font-weight:500;
   line-height:40px;
   font-family: 'Raleway', sans-serif;
@@ -665,7 +693,7 @@ input.button-submit{
   font-weight:500;
   border:0;
   font-family: 'Raleway', sans-serif;
-  color:#000000;
+  color:#1C1B20;
   float:right;
   font-weight:900;
   line-height:40px;
@@ -683,7 +711,7 @@ textarea{
   border:0;
   line-height:40px;
   background:#f8f7f7;
-  color:#000000;
+  color:#1C1B20;
   font-size:13px;
   font-family: 'Raleway', sans-serif;
   font-weight:500;
