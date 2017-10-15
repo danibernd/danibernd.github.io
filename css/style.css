@@ -1,46 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900,100,200);
 
-@font-face {
-    font-family: 'renner_blackblack';
-    src: url('fonts/renner-black-webfont.eot');
-    src: url('fonts/renner-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/renner-black-webfont.woff2') format('woff2'),
-         url('fonts/renner-black-webfont.woff') format('woff'),
-         url('fonts/renner-black-webfont.ttf') format('truetype'),
-         url('fonts/renner-black-webfont.svg#renner_blackblack') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800');
 
-@font-face {
-    font-family: 'rennerbold';
-    src: url('fonts/renner-bold-webfont.eot');
-    src: url('fonts/renner-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/renner-bold-webfont.woff2') format('woff2'),
-         url('fonts/renner-bold-webfont.woff') format('woff'),
-         url('fonts/renner-bold-webfont.ttf') format('truetype'),
-         url('fonts/renner-bold-webfont.svg#rennerbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 body{
-  font-family: 'renner_blackblack', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size:14px;
-  font-weight: 400;
+/*  font-weight: 400;*/
   overflow-y:scroll;
   -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
-		background: #1C1B20;
+		background: #120A0C;
 		color: #fff;
 		text-shadow: none;
 	}
 	
 	::-moz-selection {
-		background: #1C1B20;
+		background: #120A0C;
 		color: #fff;
 		text-shadow: none;
 	}
@@ -52,13 +30,14 @@ p{
 }
 
 a{
+  color: #00B7EB;
   text-decoration:none;
   -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
 	-ms-transition: all 0.2s ease-in;
 	-o-transition: all 0.2s ease-in;
 	transition: all 0.2s ease-in; 
-	border-bottom:1px solid #dedede;
+/*	border-bottom:1px solid #dedede;*/
 }
 
 a:focus {
@@ -283,7 +262,7 @@ ul.menu-icon a:hover{
 }
 
 header a{
-  color:#1C1B20;
+  color:#120A0C;
 }
 
 ul.header-nav{
@@ -291,19 +270,35 @@ ul.header-nav{
   float:left;
 }
 
-header .logo > a{
+/*header .logo > a{
   font-family: 'rennerbold';
   font-size:23px;
   font-weight:800;
   float:left;
   line-height:80px;
   padding-right:40px;
-  border-bottom: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f5f5f5;
+}*/
+
+header .logo > a:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
 }
 
-header .logo > a:hover{
-  color:#c3c3c3;
+
+/*LOGO USER DEFINED*/
+
+header .logo > a {
+  float:left;
+  background: url(../img/logo_40px.png) no-repeat;
+  text-indent: -9999px;
+  margin-top: 40px;
+  width: 40px;
+  height: 40px;
 }
+
+/*LOGO USER DEFINED*/
 
 header li{
   text-transform:uppercase;
@@ -322,11 +317,11 @@ header li > a{
 }
 
 header li > a:hover{
-  color:#1C1B20;
+  color:#120A0C;
 }
 
 header li > a #active{
-  color:#1C1B20;
+  color:#120A0C;
 }
 
 header li ul{
@@ -405,7 +400,7 @@ CONTENT
   font-size:46px;
   width:40%;
 /*  text-transform:uppercase;*/
-  color:#1C1B20;
+  color:#120A0C;
   font-weight:900;
   line-height:70px;
   letter-spacing:0.5px;
@@ -456,6 +451,11 @@ CONTENT
             100% { opacity:1; }
         }
 
+.content .works-display {
+  width: 1140px;
+  margin: 0 auto;
+}
+
 /*
 **************************
 HOME SIDEBAR
@@ -489,7 +489,7 @@ PORTFOLIO GRID
 */
 
 .prev-next{
-  width:100%;
+  width: 1140px;
   max-width:1170px;
   margin:0 auto;
   padding-top:100px;
@@ -519,6 +519,13 @@ PORTFOLIO GRID
   text-align:right;
 }
 
+.prev-next .no-link a {
+  color: lightgrey;
+}
+
+.prev-next .no-link a:hover{
+  border-bottom:none;
+}
 
 #ajax-content{width:100%;}
 
@@ -567,7 +574,7 @@ li.grid-item{
   left:40px;
   position:absolute;
 /*  text-transform:uppercase;*/
-  color:#1C1B20;
+  color:#120A0C;
 /*  letter-spacing:1px;*/
   font-weight:900;
   line-height:50px;
@@ -597,7 +604,7 @@ FOOTER
 #footer-box{height:150px; margin-top:75px;}
 
 footer{
-  background: #f1f1f1;
+  background: #f5f5f5;
   width:100%;
   margin-top:150px;
   height:300px;
@@ -615,13 +622,14 @@ footer{
 #footer-left{text-align:left;}
 
 .footer-margin .copyright{
-  font-family: 'rennerbook', sans-serif;
+  font-family: 'raleway', sans-serif;
   color: #686868;
   letter-spacing: 1px;
   font-size: 12px;
   width: 100%;
   text-align:center;
   float: left;
+  margin-top: -12px;
 }
 
 .footer-margin .social-footer{
@@ -673,7 +681,7 @@ input{
   height:40px;
   background:#f8f7f7;
   border:0;
-  color:#1C1B20;
+  color:#120A0C;
   font-weight:500;
   line-height:40px;
   font-family: 'Raleway', sans-serif;
@@ -693,7 +701,7 @@ input.button-submit{
   font-weight:500;
   border:0;
   font-family: 'Raleway', sans-serif;
-  color:#1C1B20;
+  color:#120A0C;
   float:right;
   font-weight:900;
   line-height:40px;
@@ -711,7 +719,7 @@ textarea{
   border:0;
   line-height:40px;
   background:#f8f7f7;
-  color:#1C1B20;
+  color:#120A0C;
   font-size:13px;
   font-family: 'Raleway', sans-serif;
   font-weight:500;
