@@ -87,7 +87,7 @@
               <div class="contact-two">  
                 <p>
                   <label for="miniemail">E-mail:</label><br />
-                  <input name="miniemail" id="miniemail" data-jkit="[validate:required=true;strength=50;error=Please write your email]">
+                  <input name="email" id="email" data-jkit="[validate:required=true;strength=50;error=Please write your email]">
                 </p>
               </div>  
             
@@ -112,8 +112,12 @@
               
 
         </div>
-
-
+      
+        <form method="POST" action="http://formspree.io/bernadus27@gmail.com">
+          <input name="email" placeholder="Your email" type="email">
+          <textarea name="message" placeholder="Your message"></textarea>
+          <button type="submit">Send</button>
+        </form>
 
 
 
