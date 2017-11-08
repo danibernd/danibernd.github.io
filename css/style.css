@@ -659,16 +659,16 @@ CONTACT
 */
 
 .contact-one, .contact-two{
-  width:30%;
+  width:80%;
   padding-right:3%;
   position:relative;
-  float:left;
+/*  float:left;*/
 }
 
 .contact-three{
-  width:33%;
+  width:80%;
   position:relative;
-  float:left;
+/*  float:left;*/
 }
 
 .contact-one p, .contact-two p, .contact-three p{
