@@ -658,22 +658,22 @@ CONTACT
 **************************
 */
 
-.contact-one, .contact-two{
-  width:100%;
-  padding-right:3%;
-  position:relative;
+.contact-one/*, .contact-two*/{
+  width:70%;
+/*  padding-right:3%;*/
+/*  position:relative;*/
 /*  float:left;*/
 }
 
 .contact-three{
-  width:100%;
-  position:relative;
+/*  width:100%;
+  position:relative;*/
 /*  float:left;*/
 }
 
-.contact-one p, .contact-two p, .contact-three p{
+/*.contact-one p, .contact-two p, .contact-three p{
   width:80% !important;
-}
+}*/
 
 input{
 
@@ -693,8 +693,8 @@ input{
   box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-input.button-submit{
-
+/*input*/.button-submit{
+  margin-top: 22px;
   width:220px;
   height:40px;
   background:#f8f7f7;
@@ -702,7 +702,7 @@ input.button-submit{
   border:0;
   font-family: 'Raleway', sans-serif;
   color:#120A0C;
-  float:right;
+/*  float:right;*/
   font-weight:900;
   line-height:40px;
   font-size:13px;
@@ -736,3 +736,7 @@ textarea{
 }
 
 textarea:focus{background:#f4f4f4; height:250px;}
+
+.hello-me {
+  display: inline;
+}
