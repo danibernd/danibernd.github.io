@@ -659,10 +659,18 @@ CONTACT
 */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .contact-one {
+=======
+.contact-one/*, .contact-two*/{
+>>>>>>> parent of 51ff43a... Adding Thanks Page
   width:70%;
+/*  padding-right:3%;*/
+/*  position:relative;*/
+/*  float:left;*/
 }
 
+<<<<<<< HEAD
 =======
 .contact-one, .contact-two{
   width:100%;
@@ -681,6 +689,17 @@ CONTACT
   width:80% !important;
 }
 >>>>>>> parent of f91912b... Contact Form
+=======
+.contact-three{
+/*  width:100%;
+  position:relative;*/
+/*  float:left;*/
+}
+
+/*.contact-one p, .contact-two p, .contact-three p{
+  width:80% !important;
+}*/
+>>>>>>> parent of 51ff43a... Adding Thanks Page
 
 input{
 
@@ -701,7 +720,11 @@ input{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .button-submit{
+=======
+/*input*/.button-submit{
+>>>>>>> parent of 51ff43a... Adding Thanks Page
   margin-top: 22px;
 =======
 input.button-submit{
@@ -715,9 +738,13 @@ input.button-submit{
   font-family: 'Raleway', sans-serif;
   color:#120A0C;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   float:right;
 >>>>>>> parent of f91912b... Contact Form
+=======
+/*  float:right;*/
+>>>>>>> parent of 51ff43a... Adding Thanks Page
   font-weight:900;
   line-height:40px;
   font-size:13px;
