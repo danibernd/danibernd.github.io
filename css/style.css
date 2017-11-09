@@ -660,7 +660,7 @@ CONTACT
 
 
 .contact-one {
-  width:70%;
+  width:80%;
 /*  padding-right:3%;*/
 /*  position:relative;*/
 /*  float:left;*/
@@ -743,3 +743,7 @@ textarea{
 }
 
 textarea:focus{background:#f4f4f4; height:250px;}
+
+.hello-me {
+  display: inline;
+}
