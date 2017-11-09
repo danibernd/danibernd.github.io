@@ -1,9 +1,5 @@
 @media all and (max-width: 1330px) and (min-width: 1180px) {
 
-  .contact-one {
-    width: 90%;
-  }
-
   header.boxed .header-margin{
     width:1000px;
   }
@@ -57,9 +53,6 @@
 
 @media all and (max-width: 1179px) and (min-width: 1024px) {
 
-  .contact-one {
-    width: 100%;
-  }
 
   header.boxed .header-margin{
     width:800px;
@@ -113,13 +106,6 @@
 
 @media all and (max-width: 1023px) and (min-width: 769px) {
 
-  .hello-me {
-    display: none;
-  }
-
-  .contact-one {
-    width: 100%;
-  }
 
   header.boxed .header-margin{
     width:600px;
@@ -191,9 +177,6 @@
 
 @media all and (max-width: 768px) and (min-width: 481px) {
 
-  .hello-me {
-    display: none;
-  }
 
   header.boxed .header-margin{
     width:400px;
@@ -293,9 +276,6 @@
 
 @media all and (max-width: 480px) and (min-width: 100px) {
 
-  .hello-me {
-    display: none;
-  }
 
   header.boxed .header-margin{
     width:280px;

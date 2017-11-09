@@ -658,10 +658,29 @@ CONTACT
 **************************
 */
 
+<<<<<<< HEAD
 .contact-one {
   width:70%;
 }
 
+=======
+.contact-one, .contact-two{
+  width:100%;
+  padding-right:3%;
+  position:relative;
+/*  float:left;*/
+}
+
+.contact-three{
+  width:100%;
+  position:relative;
+/*  float:left;*/
+}
+
+.contact-one p, .contact-two p, .contact-three p{
+  width:80% !important;
+}
+>>>>>>> parent of f91912b... Contact Form
 
 input{
 
@@ -681,8 +700,13 @@ input{
   box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
+<<<<<<< HEAD
 .button-submit{
   margin-top: 22px;
+=======
+input.button-submit{
+
+>>>>>>> parent of f91912b... Contact Form
   width:220px;
   height:40px;
   background:#f8f7f7;
@@ -690,6 +714,10 @@ input{
   border:0;
   font-family: 'Raleway', sans-serif;
   color:#120A0C;
+<<<<<<< HEAD
+=======
+  float:right;
+>>>>>>> parent of f91912b... Contact Form
   font-weight:900;
   line-height:40px;
   font-size:13px;
@@ -723,7 +751,3 @@ textarea{
 }
 
 textarea:focus{background:#f4f4f4; height:250px;}
-
-.hello-me {
-  display: inline;
-}
