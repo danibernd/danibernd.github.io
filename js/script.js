@@ -243,3 +243,13 @@ function hidePreloader() {
 
 
 })//End
+
+
+/*-------------------------------------------
+Issuu Testing
+---------------------------------------------*/
+
+$('iframe').load( function() {
+    $('iframe').contents().find("head")
+      .append($("<style type='text/css'>  .issuu-branding{display:none;}  </style>"));
+});
