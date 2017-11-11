@@ -747,3 +747,13 @@ textarea:focus{background:#f4f4f4; height:250px;}
 .hello-me {
   display: inline;
 }
+
+/*
+**************************
+ISSUU
+**************************
+*/
+
+.issuu-branding {
+  display: none;
+}
