@@ -1,5 +1,9 @@
 @media all and (max-width: 1330px) and (min-width: 1180px) {
 
+  .issuu-embed {
+    height: 608px;
+  }
+
   .contact-one {
     width: 90%;
   }
@@ -57,6 +61,10 @@
 
 @media all and (max-width: 1179px) and (min-width: 1024px) {
 
+  .issuu-embed {
+    height: 486px;
+  }
+
   .contact-one {
     width: 100%;
   }
@@ -112,6 +120,10 @@
 
 
 @media all and (max-width: 1023px) and (min-width: 769px) {
+
+  .issuu-embed {
+    height: 608px;
+  }
 
   .contact-one {
     width: 100%;
