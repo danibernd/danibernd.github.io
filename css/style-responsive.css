@@ -122,7 +122,7 @@
 @media all and (max-width: 1023px) and (min-width: 769px) {
 
   .issuu-embed {
-    height: 375px;
+    height: 550px;
   }
 
   .contact-one {
@@ -200,7 +200,7 @@
 @media all and (max-width: 768px) and (min-width: 481px) {
 
   .issuu-embed {
-    height: 275px;
+    height: 450px;
   }
 
   .contact-one {
@@ -310,7 +310,7 @@
 @media all and (max-width: 480px) and (min-width: 100px) {
 
   .issuu-embed {
-    height: 175px;
+    height: 350px;
   }
 
   .contact-one {
