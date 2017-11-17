@@ -756,6 +756,5 @@ ISSUU
 
 .issuu-embed {
   width: 100%;
-  position: relative;
-  padding-top: 75%;
+  height: 729px;
 }

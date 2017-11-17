@@ -1,5 +1,8 @@
 @media all and (max-width: 1330px) and (min-width: 1180px) {
 
+  .issuu-embed {
+    height: 575px;
+  }
 
   .contact-one {
     width: 90%;
@@ -58,6 +61,10 @@
 
 @media all and (max-width: 1179px) and (min-width: 1024px) {
 
+  .issuu-embed {
+    height: 475px;
+  }
+
   .contact-one {
     width: 100%;
   }
@@ -114,6 +121,9 @@
 
 @media all and (max-width: 1023px) and (min-width: 769px) {
 
+  .issuu-embed {
+    height: 375px;
+  }
 
   .contact-one {
     width: 100%;
@@ -188,6 +198,10 @@
 
 
 @media all and (max-width: 768px) and (min-width: 481px) {
+
+  .issuu-embed {
+    height: 275px;
+  }
 
   .contact-one {
     width: 100%;
@@ -294,6 +308,10 @@
 
 
 @media all and (max-width: 480px) and (min-width: 100px) {
+
+  .issuu-embed {
+    height: 175px;
+  }
 
   .contact-one {
     width: 100%;
