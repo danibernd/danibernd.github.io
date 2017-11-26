@@ -280,6 +280,11 @@ ul.header-nav{
   border-bottom: 1px solid #f5f5f5;
 }*/
 
+header .logo {
+  width: 40px;
+  height: 40px;
+}
+
 header .logo > a:hover {
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
@@ -292,6 +297,7 @@ header .logo > a:hover {
 header .logo > a {
   float:left;
   background: url(../img/logo_40px.png) no-repeat;
+  background-size: 40px 40px;
   text-indent: -9999px;
   margin-top: 40px;
   width: 40px;
