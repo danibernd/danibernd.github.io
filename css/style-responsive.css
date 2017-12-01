@@ -309,6 +309,7 @@
 
 @media all and (max-width: 480px) and (min-width: 100px) {
 
+
   .issuu-embed {
     height: 350px;
   }
@@ -337,7 +338,7 @@
     width:280px;
   }
   
-  .footer-margin .copyright{line-height:40px;}
+/*  .footer-margin .copyright{line-height:40px;}*/
 
   .content .text-intro h1, .content .text-intro p{
     width:100% !important;
@@ -410,5 +411,7 @@
   .grid-hover, li.grid-item, li.grid-item img{
     width:280px;
   }
+
+
 
 }
