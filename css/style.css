@@ -660,6 +660,10 @@ footer{
   color:#c3c3c3;
 }
 
+#fixed-position {
+  position: fixed; bottom: 0;
+}
+
 
 /*
 **************************
@@ -757,6 +761,7 @@ textarea:focus{background:#f4f4f4; height:250px;}
   display: inline;
 }
 
+
 /*
 **************************
 ISSUU
@@ -767,3 +772,4 @@ ISSUU
   width: 100%;
   height: 729px;
 }
+
